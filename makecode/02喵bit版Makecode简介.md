@@ -1,76 +1,50 @@
-# 固件刷新教程
+# 喵bit版Makecode简介
 
-喵bit存在两种模式，分别是makecode和micropython，两种模式切换的时候需要刷入不同的固件。
+## 在线编程地址
 
-首先了解下操作框架：
+[http://kittenbot.cn:11223/?nolocalhost=1#editor](http://kittenbot.cn:11223/?nolocalhost=1#editor)
 
-![](./image/c01_11.png)
+喵bit是喵家的又一重量级产品，为了让用户快速体验到我们的软件，我们提前把beta版本放出，让大家能提前体验到我们的软件。此过程你可能遇到一些bug或者体验不友好的地方，可以向小喵团队第一时间提出。谢谢各位天使用户对小喵科技的支持!
 
-## 下载升级软件
+后续在线版本测试OK后，喵家会制作成离线版本形式以供大家下载。
 
-请先下载meobit的固件升级包，地址如下
 
-[http://cdn.kittenbot.cn/meowbit/dfutil.zip](http://cdn.kittenbot.cn/meowbit/dfutil.zip)
+## 界面介绍
 
-将其解压到你的电脑上，等下我们会用到。(360流氓杀毒软件会报错为病毒，添加信任即可，它会把.exe的执行文件怀疑成病毒)
+如果你之前已经使用过Microbit，那么你对这个界面一定会很熟悉，还是原来的makecode，唯一不同就是，硬件只是换成了喵bit游戏机，因此仿真模拟器也换成了喵bit游戏机。
 
-## 让喵bit进入dfu模式
+编程方式还是一样，从积木块分栏拖积木块到编程区，组成一个符合逻辑的程序后，点击下载。
 
-请按住喵bit侧边的dfu按钮，之后插上usb数据线。
+![](./image/c02_01.png)
 
-![](./image/01.gif)
+## F&Q常见问题与解答
 
-成功进入dfu模式后应该可以在电脑设备管理器中看到一个新的设备（这时候dfu按键就可以松开了），不同电脑显示名称有所区别，但是都会有STM32....的设备
+### 喵bit跟Micorbit有什么区别
 
-我的电脑显示：
+喵bit是小喵科技推出的一款围绕编程游戏的主控板，底部40PIN金手指兼容micorbit的插槽。它涵盖了Microbit的所有硬件资源，甚至说是在其上做了升级。喵bit上的彩屏和6颗硅胶按键这个配置的组合使它成为不折不扣的低配版游戏机。
 
-![](./image/c01_01.png)
+简单来说：
 
-我同事电脑显示：
+Microbit是用硬件来学习编程
 
-![](./image/c01_07.png)
+喵bit除了用升级版的硬件来学习编程以外，还有通过软件中专用的游戏积木块，可以做出很多经典的小游戏。
 
-如果windows尝试从网络自动安装驱动，可以不用理会它或者中断。
+### 用常规的makecode可以控制喵bit么？
 
-## 替换dfu驱动程序
+不可以，喵bit有特定版本的makecode
 
-打开“zddig-2.4.exe” 如果你解压找不到这个，肯定是被360这个流氓软件杀了
+### Micorbit的程序可以直接烧录到喵bit中么？
 
-![](./image/c01_08.png)
+不可以，虽然都是makecode编程，但是编程积木块都是稍有差别，不能做成通用的
 
-打开后界面：
+### 仿真模拟器区真的可以仿真吗？
 
-![](./image/c01_02.png)
+是的，仿真模拟器区所见即所得
 
-在options选择list all devices
+### 什么时候出离线版本？
 
-![](./image/c01_03.png)
+等在线版本测试稳定后就会出离线版本
 
-之后在下拉框中找到STM32 BOOTLOADER，并选择Install Driver
+### 这个喵bit可以插到Robotbit或者IObit上使用吗？
 
-![](./image/c01_04.png)
-
-驱动安装时间比较长请耐心等待。。。
-
-提示这个，即安装成功：
-
-![](./image/c01_09.png)
-
-## 更新对应的固件
-
-在升级包下有两个bat脚本，分别对应Makecode和micropython的固件升级功能
-
-![](./image/c01_05.png)
-
-只需要双击对应的bat脚本（makecode/micropython），之后会弹出一个升级框
-
-![](./image/c01_06.png)
-
-之后按喵bit顶部的复位按钮就可以了~
-
-分别刷了makecode的固件和micropython的固件，识别成U盘情况
-
-![](./image/c01_12.png)
-
-![](./image/c01_10.png)
-
+可以的，后续针对喵bit的Robotbit插件会补上
