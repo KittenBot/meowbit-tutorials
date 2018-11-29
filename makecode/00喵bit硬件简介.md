@@ -14,9 +14,13 @@
 
 ## 主控芯片：
 
-STM32F410RET6,32位ARM Cortex M3内核
+STM32F401RET6,32位ARM Cortex M3内核
 
 ### 传感器硬件资源：
+
+![](./image/c00_01.png)
+
+![](./image/c00_02.png)
 
 160x128像素全彩tft屏幕
 
