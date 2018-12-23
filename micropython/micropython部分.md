@@ -15,14 +15,14 @@
 ---
 
 - [Mu-editor下载和安装]()
-- [刷新Micropython固件](./micropython/刷新Micropython固件)
-- [喵bit编程快速开始](./micropython/喵bit编程快速开始)
-- [液晶屏显示与编程](./micropython/液晶屏显示与编程)
-- [液晶屏显示多国语言字符](./micropython/液晶屏显示多国语言字符)
-- [可编程按键](./micropython/可编程按键)
-- [读取陀螺仪数据](./micropython/读取陀螺仪数据)
-- [蜂鸣器编程](./micropython/蜂鸣器编程)
-- [光线传感器和温度传感器](./micropython/光线传感器和温度传感器)
+- [刷新Micropython固件](micropython/刷新Micropython固件)
+- [喵bit编程快速开始](micropython/喵bit编程快速开始)
+- [液晶屏显示与编程](micropython/液晶屏显示与编程)
+- [液晶屏显示多国语言字符](micropython/液晶屏显示多国语言字符)
+- [可编程按键](micropython/可编程按键)
+- [读取陀螺仪数据](micropython/读取陀螺仪数据)
+- [蜂鸣器编程](micropython/蜂鸣器编程)
+- [光线传感器和温度传感器](micropython/光线传感器和温度传感器)
 - [SD卡和文件系统使用]()
 
 ## 扩展教程
