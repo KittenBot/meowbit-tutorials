@@ -40,12 +40,13 @@ main.hidden{display:none}
 .sidebar>h1 a{color:inherit;text-decoration:none;}
 .sidebar>h1 .app-nav{display:block;position:static}
 .sidebar .sidebar-nav{line-height:2em;padding-bottom:60px; }
+
 .sidebar li.collapse .app-sub-sidebar{display:none}
 .sidebar ul{margin:0 0 0 15px;padding:0}
 .sidebar li>p{font-weight:700;margin:0}
 .sidebar ul,.sidebar ul li{list-style:none}
-.sidebar ul li a{border-bottom:none;display:block}
-.sidebar ul li ul{padding-left:20px}
+.sidebar ul li a{border-bottom:none;display:block;}
+.sidebar ul li ul{padding-left:20px }
 .sidebar::-webkit-scrollbar{width:4px}
 .sidebar::-webkit-scrollbar-thumb{background:transparent;border-radius:4px}
 .sidebar:hover::-webkit-scrollbar-thumb{background:hsla(0,0%,53%,.4)}
@@ -119,7 +120,8 @@ section.cover blockquote>p>a:hover{color:var(--theme-color,#42b983)}
 .sidebar{background-color:rgba(0,137,255,0.11);}
 .sidebar{color:#364149}
 .sidebar li{margin:5px 0}
-.sidebar ul li a{color:rgba(0,0,0,0.65);font-size:15px;font-weight:550;overflow:hidden;text-decoration:none;text-overflow:ellipsis;white-space:nowrap}
+.sidebar {font-size:17px;color:black;font-weight:400;}
+.sidebar ul li a{color:rgba(0,0,0,0.55);font-size:14px;font-weight:550;overflow:hidden;text-decoration:none;text-overflow:ellipsis;white-space:nowrap}
 .sidebar ul li a:hover{text-decoration:none;background-color:white; background-color:#FFCcdb;}
 .sidebar ul li ul{padding:0}
 .sidebar ul li.active>a{border-right:3px solid;color:var(--theme-color,#42b93);color: rgba(0,137,255,0.9);font-weight:600}
