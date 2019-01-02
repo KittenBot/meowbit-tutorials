@@ -1,0 +1,13 @@
+/*    *{cursor:url(./image/logo.ico),auto;}*/
+    .sidebar{/*position: relative; */background-color: rgba(0,137,255,0.1);}
+    .search{position: absolute; top: 100px; left: 0; right: 0; position: relative;} 
+    .sidebar-nav{position: absolute; top: 170px; right: 0; left: 0;line-height:1em}
+    .sidebar-nav ul li a{font-size: 16px; padding-left: 15px; }
+    .app-name{position: absolute; top: 40px; left: 56px; }
+    .app-name-link{font-size: 28px;}
+    /*.sidebar-nav strong{position: absolute;  font-size: 25px; margin-left: 20px; margin-bottom: 300px; color: rgba(96,96,96,0.7);}*/
+    .markdown-section{font-size: 17px; line-height: 2em;}
+    .markdown-section a{text-decoration: none; color:rgba(0,137,255,0.7) }
+    .markdown-section a:hover{text-decoration: underline;color:#FFABCC;}
+    .sidebar-toggle{position: absolute; margin-left:265px; width: 50px; margin-bottom: 50px;}
+
