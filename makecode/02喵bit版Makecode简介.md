@@ -2,7 +2,6 @@
 
 ## 在线编程地址
 
-<<<<<<< HEAD
 [http://meowbit.kittenbot.cn/#](http://meowbit.kittenbot.cn/#)
 
 [http://meowbit.kittenbot.cn/#](http://meowbit.kittenbot.cn/#)
@@ -11,8 +10,6 @@
 
 下面的旧图地址没来得及换，大家注意下就可以了
 =======
-[http://meowbit.kittenbot.cn](http://meowbit.kittenbot.cn)
->>>>>>> 428ac4bd8740cf0080bf4b4096df4f8565e74cd6
 
 喵bit是喵家的又一重量级产品，为了让用户快速体验到我们的软件，我们提前把beta版本放出，让大家能提前体验到我们的软件。此过程你可能遇到一些bug或者体验不友好的地方，可以向小喵团队第一时间提出。谢谢各位天使用户对小喵科技的支持!
 
