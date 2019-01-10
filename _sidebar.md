@@ -3,8 +3,9 @@
 * [Makecode编程](./makecode/Makecode部分)
 * [micropython编程](./micropython/micropython部分) -->
 * 使用前须知
-    * [- 硬件介绍](./makecode/00喵bit硬件简介)
-    - [- 固件更新](./makecode/01固件更新教程)
+    * [- 硬件介绍](makecode/00喵bit硬件简介)
+    - [- 固件更新](makecode/01固件更新教程)
+
 * Makecode编程
     - [- 喵bit版Makecode简介](makecode/02喵bit版Makecode简介)
     - [- 彩屏显示控制](makecode/03彩屏显示控制)
@@ -16,6 +17,7 @@
     - [- 引脚直接控制数字传感器](makecode/09引脚直接控制数字传感器)
     - [- 引脚直接控制模拟传感器](makecode/10引脚直接控制模拟传感器)
     - [- 引脚直接控制小舵机](makecode/11引脚直接控制小舵机)
+
 * micropython编程
 <!--     - Mu-editor下载和安装 -->
     - [- 刷新Micropython固件](micropython/刷新Micropython固件)
@@ -26,6 +28,7 @@
     - [- 读取陀螺仪数据](micropython/读取陀螺仪数据)
     - [- 蜂鸣器编程](micropython/蜂鸣器编程)
     - [- 光线传感器和温度传感器](micropython/光线传感器和温度传感器)
+
  <!--    - SD卡和文件系统使用 -->
 <!-- **由Kittenbot团队提供** -->
 
