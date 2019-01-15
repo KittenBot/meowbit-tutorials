@@ -9,7 +9,7 @@ div#app:empty:before{content:"Loading..."}
 .search .search-keyword{font-style:normal;font-weight:700}
 body,html{height:100%}
 body{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;color:#34495e;font-family:Source Sans Pro,Helvetica Neue,Arial,sans-serif;font-size:15px;letter-spacing:0;margin:0;overflow-x:hidden}
-img{max-width:100%}
+img{max-width:100%; position: flex; display: block; vertical-align: middle;align-content: center}
 a[disabled]{cursor:not-allowed;opacity:.6}
 kbd{border:1px solid #ccc;border-radius:3px;display:inline-block;font-size:12px!important;line-height:12px;margin-bottom:3px;padding:3px 5px;vertical-align:middle}
 li input[type=checkbox]{margin:0 .2em .25em 0;vertical-align:middle}
@@ -71,6 +71,10 @@ body.sticky .sidebar,body.sticky .sidebar-toggle{position:fixed}
 .markdown-section p.tip code{background-color:#efefef}
 .markdown-section p.tip em{color:#34495e}
 .markdown-section p.warn{background:rgba(66,185,131,.1);border-radius:2px;padding:1rem}
+
+.markdown-section p img{display: block; margin: 0 auto;max-width:70% }
+
+
 body.close .sidebar{transform:translateX(-300px)}
 body.close .sidebar-toggle{width:auto;}
 body.close .content{left:0}
