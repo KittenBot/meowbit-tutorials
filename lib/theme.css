@@ -9,7 +9,7 @@ div#app:empty:before{content:"Loading..."}
 .search .search-keyword{font-style:normal;font-weight:700}
 body,html{height:100%}
 body{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;color:#34495e;font-family:Source Sans Pro,Helvetica Neue,Arial,sans-serif;font-size:15px;letter-spacing:0;margin:0;overflow-x:hidden}
-img{max-width:100%; position: flex; display: block; vertical-align: middle;align-content: center}
+img{max-width:100%;}
 a[disabled]{cursor:not-allowed;opacity:.6}
 kbd{border:1px solid #ccc;border-radius:3px;display:inline-block;font-size:12px!important;line-height:12px;margin-bottom:3px;padding:3px 5px;vertical-align:middle}
 li input[type=checkbox]{margin:0 .2em .25em 0;vertical-align:middle}
@@ -74,7 +74,6 @@ body.sticky .sidebar,body.sticky .sidebar-toggle{position:fixed}
 
 .markdown-section p img{display: block; margin: 0 auto;max-width:70% }
 
-
 body.close .sidebar{transform:translateX(-300px)}
 body.close .sidebar-toggle{width:auto;}
 body.close .content{left:0}
@@ -128,7 +127,7 @@ section.cover blockquote>p>a:hover{color:var(--theme-color,#42b983)}
 .sidebar ul li a{color:rgba(0,0,0,0.55);font-size:14px;font-weight:550;overflow:hidden;text-decoration:none;text-overflow:ellipsis;white-space:nowrap}
 .sidebar ul li a:hover{text-decoration:none;background-color:white; background-color:#FFCcdb;}
 .sidebar ul li ul{padding:0}
-.sidebar ul li.active>a{border-right:3px solid;color:var(--theme-color,#42b93);color: rgba(0,137,255,0.9);font-weight:600}
+.sidebar ul li.active>a{border-right:3px solid;color:var(--theme-color,#42b93); color: rgba(0,137,255,0.9);font-weight:600}
 
 .app-name{font-weight:1100;color:rgba(0,137,255,0.6); text-shadow:-0.2px -0.2px 2px rgba(255,130,200,0.7)}
 
