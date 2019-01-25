@@ -68,11 +68,11 @@ body.sticky .sidebar,body.sticky .sidebar-toggle{position:fixed}
 .markdown-section td,.markdown-section th{border:1px solid #ddd;padding:6px 13px}
 .markdown-section tr{border-top:1px solid #ccc}
 .markdown-section p.tip,.markdown-section tr:nth-child(2n){background-color:rgba(255, 115, 0, 0.15);border: 1.2px dotted rgba(255, 115, 0, 0.6);}
-.markdown-section p.tip{border-bottom-right-radius:2px;border-left:4px solid rgba(255, 115, 0, 0.6);border-top-right-radius:2px;margin:2em 0;padding:12px 24px 12px 30px;position:relative}
-.markdown-section p.tip:before{background-color:rgba(255, 115, 0, 0.75);border-radius:100%;color:#fff;content:"!";font-family:Dosis,Source Sans Pro,Helvetica Neue,Arial,sans-serif;font-size:14px;font-weight:700;left:-12px;line-height:20px;position:absolute;height:20px;width:20px;text-align:center;top:14px}
+.markdown-section p.tip{border-bottom-right-radius:2px;border-left:4px solid rgba(255, 115, 0, 0.6);border-top-right-radius:2px;margin:1.6em 0;padding:6px 12px 6px 12px;position:relative}
+.markdown-section p.tip:before{background-color:rgba(255, 115, 0, 0.75);border-radius:100%;color:#fff;content:"!";font-family:Dosis,Source Sans Pro,Helvetica Neue,Arial,sans-serif;font-size:17px;font-weight:800;left:-12px;line-height:17px;position:absolute;height:20px;width:20px;text-align:center;top:10px}
 .markdown-section p.tip code{background-color:#efefef}
 .markdown-section p.tip em{color:#34495e}
-.markdown-section p.warn{background:rgba(0,137,255,0.06);padding:1rem; border: 1.2px dotted rgba(0,137,255, 0.7);}
+.markdown-section p.warn{background:rgba(0,137,255,0.06);padding:0.6rem; border: 1.2px dotted rgba(0,137,255, 0.7);}
 
 .markdown-section p img{display: block; margin: 0 auto;max-width:70% }
 
@@ -146,7 +146,7 @@ section.cover blockquote>p>a:hover{color:var(--theme-color,#4283b9)}
 .markdown-section h5{font-size:1rem}
 .markdown-section h6{color:#777;font-size:1rem}
 .markdown-section figure,.markdown-section p{margin:1.2em 0}
-.markdown-section ol,.markdown-section p,.markdown-section ul{font-size: 1.1em; line-height: 1.7em;word-spacing:.05rem}
+.markdown-section ol,.markdown-section p,.markdown-section ul{font-size: 1.1em; line-height: 1.4em;word-spacing:.05rem}
 .markdown-section ol,.markdown-section ul{padding-left:1.5rem;}
 .markdown-section blockquote{border-left:4px solid var(--theme-color,#00ad5f);color:#858585;margin:2em 0;padding-left:20px}
 .markdown-section blockquote p{font-weight:600;margin-left:0}
