@@ -1,0 +1,67 @@
+# 喵bit简介
+
+---
+
+Meowbit(喵比特)是一款兼容Microbit金手指40PIN接口(既兼容市面上几乎所有的Microbit扩展板)的编程游戏机，用于学习makecode图形化编程与micropython编程。
+
+## 硬件参数
+
+---
+
+- 主控板大小尺寸：52x76x12mm
+- 主控芯片：STM32F401RET6,32位ARM Cortex M4内核
+- USB充电电压：5V（电流1A或以上）
+- 主控板最大输出电流：300MA
+- 外部电池接口输入电压：3.7~4.2V
+
+
+## 硬件资源
+
+---
+
+![](./image/c01_18.png)
+
+![](./image/c01_19.png)
+
+1. 充电/工作指示灯
+2. 光敏传感器
+3. 电源拨动开关
+4. 可编程LED灯 x 2
+5. 复位按键
+6. DFU模式按键（用于刷固件切换编程模式、也用于makecode固件下调出菜单）
+7. 160 x 128 tft彩屏
+8. 温度传感器
+9. 方向可编程按键 x 4
+10. 可编程蜂鸣器
+11. 可编程A、B按键
+12. 兼容Microbit40PIN金手指接口
+13. USB程序下载口
+14. SD卡槽(存储程序、后续拓展蓝牙/wifi模块)
+15. JAC接口
+16. 6轴陀螺仪和加速度计
+17. 3.7V锂电池接口
+18. 主控芯片
+19. 默认烧录unicode字符表的2MByte的spi-flash
+20. 签名栏
+
+
+
+## 编程方式
+
+---
+
+>`makecode图形化编程模式: `
+Makecode平台 
+
+>`micropython编程模式:  `
+Mu editor/Kittenblock(基于Scratch3.0)
+
+
+## 支持系统
+
+---
+
+Windows，macOS
+
+
+
