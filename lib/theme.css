@@ -61,7 +61,7 @@ body.sticky .sidebar,body.sticky .sidebar-toggle{position:fixed}
 .markdown-section{margin:0 auto;max-width:800px;padding:30px 15px 40px;position:relative}
 .markdown-section>*{box-sizing:border-box;font-size:inherit}
 .markdown-section>:first-child{margin-top:0!important}
-.markdown-section hr{border:none;border-bottom:1px solid #eee;margin:2em 0}
+.markdown-section hr{border:none;border-bottom:1px solid #eee;margin:1em 0}
 .markdown-section iframe{border:1px solid #eee}
 .markdown-section table{border-collapse:collapse;border-spacing:0;display:block;margin-bottom:1rem;overflow:auto;width:100%}
 .markdown-section th{font-weight:700}
@@ -116,7 +116,7 @@ section.cover h1 small{bottom:-.4375rem;font-size:1rem;position:absolute}
 section.cover blockquote{font-size:1.5rem;text-align:center}
 section.cover ul{line-height:1.8;list-style-type:none;margin:1em auto;max-width:500px;padding:0}
 section.cover .cover-main>p:last-child a{border:1px solid var(--theme-color,#42b983);border-radius:2rem;box-sizing:border-box;color:var(--theme-color,#42b983);display:inline-block;font-size:1.05rem;letter-spacing:.1rem;margin:.5rem 1rem;padding:.75em 2rem;text-decoration:none;transition:all .15s ease}
-section.cover .cover-main>p:last-child a:last-child{background-color:var(--theme-color,#b60aa7);color:#fff}
+section.cover .cover-main>p:last-child a:last-child{background-color:var(--theme-color,#305f85);color:#fff}
 section.cover .cover-main>p:last-child a:last-child:hover{color:inherit;opacity:.8}
 section.cover .cover-main>p:last-child a:hover{color:inherit}
 section.cover blockquote>p>a{border-bottom:2px solid var(--theme-color,#23464e);transition:color .3s}
