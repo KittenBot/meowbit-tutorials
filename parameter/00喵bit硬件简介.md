@@ -14,9 +14,9 @@ Meowbit(喵比特)是一款兼容Microbit金手指40PIN接口(既兼容市面上
 ---
 ## 硬件资源
 
-![](./image/c01_18.png)
+![](https://s2.ax1x.com/2019/01/26/knIGbd.png)
 
-![](./image/c01_19.png)
+![](https://s2.ax1x.com/2019/01/26/knId8f.png)
 
 1. 充电/工作指示灯
 2. 光敏传感器
