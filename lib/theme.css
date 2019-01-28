@@ -58,7 +58,7 @@ main.hidden{display:none}
 .sidebar-toggle span{background-color:var(--theme-color,#42b983);display:block;margin-bottom:4px;width:16px;height:2px}
 body.sticky .sidebar,body.sticky .sidebar-toggle{position:fixed}
 .content{padding-top:60px;position:absolute;top:0;right:0;bottom:0;left:300px;transition:left .25s ease}
-.markdown-section{margin:0 auto;max-width:800px;padding:30px 15px 40px;position:relative}
+.markdown-section{margin:0 auto;max-width:800px;padding:5px 15px 40px;position:relative}
 .markdown-section>*{box-sizing:border-box;font-size:inherit}
 .markdown-section>:first-child{margin-top:0!important}
 .markdown-section hr{border:none;border-bottom:1px solid #eee;margin:1em 0}
@@ -119,6 +119,7 @@ section.cover .cover-main>p:last-child a{border:1px solid var(--theme-color,#42b
 section.cover .cover-main>p:last-child a:last-child{background-color:var(--theme-color,#305f85);color:#fff}
 section.cover .cover-main>p:last-child a:last-child:hover{color:inherit;opacity:.8}
 section.cover .cover-main>p:last-child a:hover{color:inherit}
+.cover-main span{border: none;}
 section.cover blockquote>p>a{border-bottom:2px solid var(--theme-color,#23464e);transition:color .3s}
 section.cover blockquote>p>a:hover{color:var(--theme-color,#4283b9)}
 .sidebar,body{background-color:rgba(255, 255, 255, 0.04);}
