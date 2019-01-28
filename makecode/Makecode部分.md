@@ -5,7 +5,7 @@
 ## 快速开始
 
 - [刷入Makecode模式固件](makecode/刷入makecode固件)
-- [Makecode使用简介](makecode/02喵bit版Makecode简介)
+- [Makecode模式须知](makecode/02喵bit版Makecode简介)
 
 ## 硬件入门教程
 - [彩屏显示控制](makecode/03彩屏显示控制)
