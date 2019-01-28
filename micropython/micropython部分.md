@@ -1,4 +1,4 @@
-# Micropython模式介绍
+# Micropython篇
 
 ?>在该系列教程中我们介绍如何使用micropython代码对喵比特进行编程，所涉及的是硬件驱动部分，后续游戏引擎会逐步加进来。
 

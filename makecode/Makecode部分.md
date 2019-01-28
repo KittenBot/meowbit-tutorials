@@ -2,8 +2,9 @@
 
 ?>在该系列教程中我们介绍如何使用Makecode对喵bit进行编程使用，包括基础的硬件控制，还有完成各种有趣的小游戏
 
-## 编程平台和使用简介
+## 快速开始
 
+- [刷入Makecode模式固件](makecode/刷入makecode固件)
 - [Makecode使用简介](makecode/02喵bit版Makecode简介)
 
 ## 基础硬件教程
