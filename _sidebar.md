@@ -7,15 +7,15 @@
 
 * [Makecode编程](makecode/Makecode部分)
     <!-- - [- 喵bit版Makecode简介](makecode/02喵bit版Makecode简介)
-    <!-- - [- 彩屏显示控制](makecode/03彩屏显示控制)
-    - [- 按键检测控制](makecode/04按键检测控制) -->
-    <!-- - [- 蜂鸣器音乐控制](makecode/05蜂鸣器音乐控制)
+    - [- 彩屏显示控制](makecode/03彩屏显示控制)
+    - [- 按键检测控制](makecode/04按键检测控制)
+    - [- 蜂鸣器音乐控制](makecode/05蜂鸣器音乐控制)
     - [- 陀螺仪读值检测](makecode/06陀螺仪读值检测)
     - [- 温度读值检测](makecode/07温度读值检测)
     - [- 光线传感器读值检测](makecode/08光线传感器读值检测)
     - [- 引脚直接控制数字传感器](makecode/09引脚直接控制数字传感器)
     - [- 引脚直接控制模拟传感器](makecode/10引脚直接控制模拟传感器)
-    - [- 引脚直接控制小舵机](makecode/11引脚直接控制小舵机) --> 
+    - [- 引脚直接控制小舵机](makecode/11引脚直接控制小舵机)  -->
 * [Micropython编程](micropython/micropython部分)
     <!-- - [- 刷新Micropython固件](micropython/刷新Micropython固件)
     - [- Pyboard驱动安装失败的问题解决](micropython/meowbit驱动安装失败的问题解决)

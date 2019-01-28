@@ -1,4 +1,4 @@
-# Makecode使用简介
+# Makecode使用简介 {docsify-ignore-all}
 
 ## 在线编程地址
 
