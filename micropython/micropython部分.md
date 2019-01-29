@@ -2,14 +2,16 @@
 
 ?>在该系列教程中我们介绍如何使用micropython代码对喵比特进行编程，所涉及的是硬件驱动部分，后续游戏引擎会逐步加进来。
 
+## 快速开始
 
-##  入门教程
+- [刷入Micropython模式固件](micropython/刷新Micropython固件)  
+- [Micropython模式须知](micropython/喵bit编程快速开始)  
 
-
+## 入门教程
 
 <!-- - [Mu-editor下载和安装]() -->
-- [刷新Micropython固件](micropython/刷新Micropython固件)
-- [喵bit编程快速开始](micropython/喵bit编程快速开始)
+
+
 - [液晶屏显示与编程](micropython/液晶屏显示与编程)
 - [可编程按键](micropython/可编程按键)
 - [读取陀螺仪数据](micropython/读取陀螺仪数据)

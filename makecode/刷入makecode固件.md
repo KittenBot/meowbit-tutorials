@@ -1,6 +1,9 @@
 ## 进入dfu模式
 
-喵比特出厂默认就是makecode固件，如果你已经切换过micropython固件那么你需要跟随如下流程操作。  
+!>喵比特出厂默认就是makecode固件，如果你只需要在makecode模式下使用可以暂时跳过并查阅下一章节 [Makecode模式须知](makecode/02喵bit版Makecode简介)  
+
+如果你已经切换过micropython固件需要重新切回makecode，则跟随如下流程操作。  
+  
 DFU在此可以理解为强制固件切换，要更换固件首先需要进到这个模式下。按住并保持喵比特侧方的DFU按键，紧接着插上usb数据线。
 
 ![](https://s2.ax1x.com/2019/01/26/knLsSI.jpg)

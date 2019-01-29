@@ -3,7 +3,6 @@
 * [Makecode编程](./makecode/Makecode部分)
 * [micropython编程](./micropython/micropython部分) -->
 - [产品介绍](parameter/00喵bit硬件简介)
-- [刷入固件](parameter/01固件更新教程)
 
 * [Makecode编程](makecode/Makecode部分)
     <!-- - [- 喵bit版Makecode简介](makecode/02喵bit版Makecode简介)
@@ -28,6 +27,8 @@
     - [- 读取陀螺仪数据](micropython/读取陀螺仪数据)
     - [- 蜂鸣器编程](micropython/蜂鸣器编程)
     - [- 光线传感器和温度传感器](micropython/光线传感器和温度传感器) -->
+
+- [刷入固件](parameter/01固件更新教程)  
 
 * [FAQ](FAQ/FAQ)
 
