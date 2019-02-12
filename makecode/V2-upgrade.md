@@ -11,6 +11,9 @@
 * 下载带新的BootLoader的dfutil：[http://cdn.kittenbot.cn/meowbit/dfutil.zip](http://cdn.kittenbot.cn/meowbit/dfutil.zip)
 * 按住dfu按键将喵bit连接到电脑，让meowbit进入dfu模式。具体可以参考我们固件更新文档（这也可能是您最后一次使用dfu模式更新固件了）
 * 解压dfu工具，点击`BootLoader.bat`脚本更新BootLoader。刷新完成后按reset会进入BootLoader更新提示框
+
+![](./image/update04.jpg)
+
 * 使用下按键选择最后一项并按A按钮进行BootLoader刷新，完成后请再次复位。
 * 更新成功后会出现全新的BootLoader界面, 如下图
 
