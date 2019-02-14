@@ -1,4 +1,4 @@
-# 喵bit简介
+# 喵比特简介
 
 Meowbit(喵比特)是一款兼容Microbit金手指40PIN接口(既兼容市面上几乎所有的Microbit扩展板)的编程游戏机，用于学习makecode图形化编程与micropython编程。
 

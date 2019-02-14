@@ -11,8 +11,8 @@
 
 <!-- - [Mu-editor下载和安装]() -->
 
-
-- [液晶屏显示与编程](micropython/液晶屏显示与编程)
+- [液晶屏显示与编程](micropython/液晶屏显示与编程)  
+- [编编程led](micropython/LED的使用)
 - [可编程按键](micropython/可编程按键)
 - [读取陀螺仪数据](micropython/读取陀螺仪数据)
 - [蜂鸣器编程](micropython/蜂鸣器编程)

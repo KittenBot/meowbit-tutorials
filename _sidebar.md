@@ -4,7 +4,7 @@
 * [micropython编程](./micropython/micropython部分) -->
 - [产品介绍](parameter/00喵bit硬件简介)
 
-* [Makecode编程](makecode/Makecode部分)
+- [Makecode编程](makecode/Makecode部分)
     <!-- - [- 喵bit版Makecode简介](makecode/02喵bit版Makecode简介)
     - [- 彩屏显示控制](makecode/03彩屏显示控制)
     - [- 按键检测控制](makecode/04按键检测控制)
@@ -28,8 +28,17 @@
     - [- 蜂鸣器编程](micropython/蜂鸣器编程)
     - [- 光线传感器和温度传感器](micropython/光线传感器和温度传感器) -->
 
-- [刷入固件](parameter/01固件更新教程)  
+<!-- * 喵比特游戏课程
+    - [lesson1](lessons/lesson1)
+    - [lesson2](lessons/lesson2)
+    - [lesson3](lessons/lesson3)
+    - [lesson4](lessons/lesson4)
+    - [lesson5](lessons/lesson5)
+    - [lesson6](lessons/lesson6)
+    - [lesson7](lessons/lesson7) -->
 
+- [固件更新](parameter/01固件更新教程)  
+- [更新喵比特V2指南](update/V2-upgrade) 
 * [FAQ](FAQ/FAQ)
 
  <!--    - SD卡和文件系统使用 -->
