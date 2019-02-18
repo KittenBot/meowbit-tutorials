@@ -3,7 +3,9 @@
 
     * [产品介绍](start/intro)
     * [编程前须知](start/须知)
-    * [使用板载资源](start/板载资源)
+    * [makecode使用板载资源](start/makecode_source)
+    * [micropython使用板载资源](start/micropython_source)  
+
 - 游戏课程
 
     - [第一节：入门Arcade](lessons/lesson1)
