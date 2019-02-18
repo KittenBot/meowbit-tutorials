@@ -5,4 +5,4 @@
 </small>那么我认为喵比特真的非常适合你</small>
 
 
-[Let‘s go](parameter/00喵bit硬件简介.md)
+[Let‘s go](start/intro.md)
