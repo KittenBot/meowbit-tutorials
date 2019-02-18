@@ -21,5 +21,3 @@
 ?>micropython串口驱动就是装不上怎么办呢？  
 [解决方法](FAQ/meowbit驱动安装失败的问题解决)
 
-?>Micropython模式下，看得到喵比特盘符，却发现程序下不进去或执行错误等问题  
-`如果您之前刷新过Makecode固件，有一定几率可能或导致喵bit上电后假死，这时会看到u盘下main.py或boot.py内容为乱码。请务必将u盘下的所有文件删除，之后重启板子micropython会重新生成这四个文件。 使用mac的同学可以去我们的网站或者固件发布帖下载对应的执行脚本，在命令行终端下执行对应的更新指令就行了。Ubuntu或linux的同学默认你们知道openocd和dfu-util，看看windows或者mac的脚本应该就行了。`

@@ -1,11 +1,10 @@
 # Micropython篇
 
 ?>在该系列教程中我们介绍如何使用micropython代码对喵比特进行编程，所涉及的是硬件驱动部分，后续游戏引擎会逐步加进来。
+<!-- 
+## 快速开始  
 
-## 快速开始
-
-- [刷入Micropython模式固件](micropython/刷新Micropython固件)  
-- [Micropython模式须知](micropython/喵bit编程快速开始)  
+- [快速开始](micropython/喵bit编程快速开始) -->
 
 ## 入门教程
 
@@ -17,12 +16,6 @@
 - [读取陀螺仪数据](micropython/读取陀螺仪数据)
 - [蜂鸣器编程](micropython/蜂鸣器编程)
 - [光线传感器和温度传感器](micropython/光线传感器和温度传感器)
-
-
-##  进阶教程
-
-
-等待更新...
 
 ## 案例分享
  - [超级玛丽音乐](micropython/超级玛丽)

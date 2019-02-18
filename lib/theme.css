@@ -39,13 +39,13 @@ main.hidden{display:none}
 .sidebar>h1{margin:0 auto 1rem;font-size:1.5rem;font-weight:300;text-align:center}
 .sidebar>h1 a{color:inherit;text-decoration:none;}
 .sidebar>h1 .app-nav{display:block;position:static}
-.sidebar .sidebar-nav{line-height:2em;padding-bottom:60px; margin-left: 2em; margin-top: 2em;}
+.sidebar .sidebar-nav{line-height:1.8em;padding-bottom:60px; margin-top: 2em;}
 /* .sidebar-nav a:active{color:#22a2c9;} */
 .sidebar-nar ul li p{font-weight: 200;}
 
 .sidebar li.collapse .app-sub-sidebar{display:none}
 .sidebar ul{margin:0 0 0 15px;padding:0}
-.sidebar li>p{font-weight:600;margin:0; font-size: 0.95em; color: rgba(22,22,22,0.4); }
+.sidebar li>p{font-weight:600;margin:0; font-size: 0.9em; color: rgba(22,22,22,0.8); }
 .sidebar ul,.sidebar ul li{list-style:none}
 .sidebar ul li a{border-bottom:none;display:block;}
 .sidebar ul li ul{padding-left:20px }
@@ -128,11 +128,11 @@ section.cover blockquote>p>a:hover{color:var(--theme-color,#4283b9)}
 .sidebar{color:#364149}
 .sidebar li{margin:5px 0}
 .sidebar {font-size:17px;color:black;font-weight:400;}
-.sidebar ul li a{color:rgba(0,0,0,0.55);font-size:14px;font-weight:550;overflow:hidden;text-decoration:none;text-overflow:ellipsis;white-space:nowrap}
+.sidebar ul li a{color:#505d6b;font-size:14px;font-weight:460;overflow:hidden;text-decoration:none;text-overflow:ellipsis;white-space:nowrap}
 .sidebar ul li a:hover{text-decoration:none;background-color:white; background-color:rgba(0,137,255, 0.25);}
 .sidebar ul li ul{padding:0}
 .sidebar ul li.active>a{border-right:3px solid;color:var(--theme-color,#42b393);color: rgba(0,137,255,0.9);font-weight:600; }
-.sidebar ul p.active>a{border-right:3px solid;color:var(--theme-color,#42b393);color: rgba(255, 115, 0, 0.7);font-weight:600; }
+.sidebar ul p.active>a{border-right:3px solid;color:var(--theme-color,#42b393);color: rgba(255, 115, 0, 0.7);font-weight:500; }
 
 .app-name{font-weight:1100;color:rgba(0,137,255,0.69); }
 /* text-shadow:-0.2px -0.2px 1px rgb(255, 0, 191); */
@@ -184,5 +184,4 @@ section.cover blockquote>p>a:hover{color:var(--theme-color,#4283b9)}
 .markdown-section code:after,.markdown-section code:before{letter-spacing:.05rem}
 code .token{-moz-osx-font-smoothing:initial;-webkit-font-smoothing:initial;min-height:1.5rem}
 pre:after{color:#ccc;content:attr(data-lang);font-size:.6rem;font-weight:600;height:15px;line-height:15px;padding:5px 10px 0;position:absolute;right:0;text-align:right;top:0}
-
-
+.alertcss{padding: 0 10px；}
