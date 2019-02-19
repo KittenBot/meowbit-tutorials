@@ -3,6 +3,7 @@
 
     * [产品介绍](start/intro)
     * [编程前须知](start/须知)
+    * [积木块功能介绍](start/block_intro) 
     * [makecode使用板载资源](start/makecode_source)
     * [micropython使用板载资源](start/micropython_source)  
 
