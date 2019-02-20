@@ -3,9 +3,9 @@
 
     * [产品介绍](start/intro)
     * [编程前须知](start/须知)
-    * [积木块功能介绍](start/block_intro) 
-    * [makecode使用板载资源](start/makecode_source)
-    * [micropython使用板载资源](start/micropython_source)  
+    * [图形化积木功能](start/block_intro)
+    * [makecode](start/makecode_source)
+    * [micropython](start/micropython_source)
 
 - 游戏课程
 
@@ -25,8 +25,7 @@
     - [Micropython编程](advance/mpython)
 
 
-- [更新喵比特V2指南<sup style="color:red">(new)<sup>](upgradeV2/V2-upgrade)  
-
+- [更新喵比特V2指南<sup style="color:red">(new)<sup>](upgradeV2/V2-upgrade)
 - [FAQ](FAQ/FAQ)
 
 
