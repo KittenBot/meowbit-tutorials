@@ -2,8 +2,7 @@
 * 入门  
 
     * [产品介绍](start/intro)
-    * [编程前须知](start/须知)
-    * [图形化积木功能](start/block_intro)
+    * [积木块功能](start/block_intro)
     * [makecode](start/makecode_source)
     * [micropython](start/micropython_source)
 
@@ -19,7 +18,7 @@
     - [第八节：重叠事件](lessons/lesson8)
     - [第九节：认识抛射物](lessons/lesson9)
 
-- 进阶
+- 进阶案例
     
     - [游戏编程](advance/game)
     - [Micropython编程](advance/mpython)
@@ -27,9 +26,5 @@
 
 - [更新喵比特V2指南<sup style="color:red">(new)<sup>](upgradeV2/V2-upgrade)
 - [FAQ](FAQ/FAQ)
-
-
- <!--    - SD卡和文件系统使用 -->
-<!-- **由Kittenbot团队提供** -->
 
     

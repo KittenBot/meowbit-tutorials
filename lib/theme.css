@@ -71,7 +71,7 @@ body.sticky .sidebar,body.sticky .sidebar-toggle{position:fixed}
 .markdown-section p.tip,.markdown-section tr:nth-child(2n){background-color:rgba(255, 115, 0, 0.15);}
 .markdown-section p.tip{border-bottom-right-radius:2px;border-top-right-radius:2px;margin:1.6em 0;padding:6px 12px 6px 12px;position:relative}
 .markdown-section p.tip:before{background-color:rgba(255, 115, 0, 0.75);border-radius:100%;color:#fff;content:"!";font-family:Dosis,Source Sans Pro,Helvetica Neue,Arial,sans-serif;font-size:1em;font-weight:800;left:-12px; line-height:17px;position:absolute;height:20px;width:20px;text-align:center; vertical-align: center;}
-.markdown-section p.tip code{background-color:#efefef}
+/* .markdown-section p.tip code{background-color:#efefef} */
 .markdown-section p.tip em{color:#34495e}
 .markdown-section p.warn{background:rgba(0,137,255,0.06);padding:0.6rem;}
 
@@ -157,8 +157,11 @@ section.cover blockquote>p>a:hover{color:var(--theme-color,#4283b9)}
 .markdown-section blockquote p{font-weight:600;margin-left:0}
 .markdown-section iframe{margin:1em 0}
 .markdown-section em{color:#7f8c8d}
-.markdown-section code{border-radius:2px;color:#e96900;font-size:.9rem;margin:0 2px;padding:3px 5px;white-space:pre-wrap}
-.markdown-section code,.markdown-section pre{background-color:#f3f5f7;font-family:Roboto Mono,Monaco,courier,monospace}
+.markdown-section code{font-size:1rem;margin:0 2px;padding:3px 5px;white-space:pre-wrap}
+/* .markdown-section code,.markdown-section pre{background-color:#f3f5f7;font-family:Roboto Mono,Monaco,courier,monospace} */
+
+p>code{text-decoration: underline wavy #b573bb;}
+
 .markdown-section pre{-moz-osx-font-smoothing:initial;-webkit-font-smoothing:initial;line-height:1.5rem;margin:1.2em 0;overflow:auto;padding:0 1.4rem;position:relative;word-wrap:normal}
 .markdown-section a{color:rgba(0,137,255, 0.69);}
 .token.cdata,.token.comment,.token.doctype,.token.prolog{color:#8e908c}
@@ -186,4 +189,5 @@ section.cover blockquote>p>a:hover{color:var(--theme-color,#4283b9)}
 code .token{-moz-osx-font-smoothing:initial;-webkit-font-smoothing:initial;min-height:1.5rem}
 pre:after{color:#ccc;content:attr(data-lang);font-size:.6rem;font-weight:600;height:15px;line-height:15px;padding:5px 10px 0;position:absolute;right:0;text-align:right;top:0}
 .alertcss{padding: 0 10px；}
-hr{height:1px;border:none!important;border-top:1px dashed #0066CC!important;}
+hr{height:1px;border:none!important;border-top:1px dashed #0066CC!important;}  
+

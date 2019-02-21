@@ -339,11 +339,11 @@ function placeOnRandomTile(sprite: Sprite, color: number): void;
 
 例子：设置一个有4中颜色索引的砖块地图，并且让绿色小精灵能够随机落在他们其中一个上    
 
-![](image/block_8_0.png)    
+![](image/block_8_0.png)     
 
 ---  
 
-![](image/block_8_8.png)   
+![](image/block_8_8.png ':no-zoom')   
 
 ```javascript
 //sprite：要移动到砖块上的精灵
@@ -353,3 +353,83 @@ place(mySprite: Sprite): void;
 例子： 
 
 ![](image/block_8_3.png)  
+
+---  
+
+当精灵撞到指定的砖墙时，运行一些代码程序
+
+![](image/block_9_1.png ':no-zoom')   
+
+```javascript
+//kind：用于检测撞到墙的精灵类型，type：墙的类型(颜色索引)，handler：当有精灵碰到墙要执行的程序(sprite)：撞到墙的精灵
+function onHitTile(kind: number, tile: number, handler: (sprite: Sprite) => void);
+```
+
+例子：当精灵碰到红色索引的墙，说一句 oh！
+
+![](image/block_9_2.png ':no-zoom')  
+  
+
+---  
+
+两者都属于通过设置碰撞方位后，触发返回值类型的积木块，不同点在于：
+- 前者返回为boolean
+- 后者返回砖块索引值为数字
+
+![](image/block_9_3.png ':no-zoom')
+![](image/block_9_4.png ':no-zoom')
+
+```javascript
+isHittingTile(direction: CollisionDirection): boolean;  //返回值为boolean  
+tileHitFrom(direction: CollisionDirection): number;     //返回值为砖块索引值 
+//direction：发生碰撞时砖块位于精灵的方向：left, right, top, or bottom，
+```
+
+例子1：自由控制精灵移动，当撞到四面的墙分别说出对应的方位
+
+![](image/block_9_5.png)  
+
+例子2：设置两种索引值的砖块，当精灵分别碰到他们时说出对应的索引值
+
+![](image/block_9_6.png)   
+
+--- 
+
+该积木块属于特效积木块，在遇到危险或发生碰撞事件时以震动来增强游戏体验
+
+![](image/block_9_8.png ':no-zoom')  
+
+```javascript
+//amplitude：震动的最大像素偏移量，duration：震动持续时间
+function cameraShake(amplitude: number = 4, duration: number = 500);  
+```
+
+例子：同时设置精灵，背景和砖块，可以看出背景是不受震动影响的
+
+![](image/block_9_7.png ':no-zoom')  
+
+---  
+
+改变镜头的定位，不在使镜头一味停留在160x128的居中值。
+
+![](image/block_9_9.png ':no-zoom')
+![](image/block_9_10.png ':no-zoom')  
+
+```javascript 
+function cameraFollowSprite(sprite: Sprite);  
+//sprite：需要镜头跟随的精灵
+function centerCameraAt(x: number, y: number);
+//x,y：需要让镜头锁定的坐标数值
+```
+
+例子1：镜头跟随精灵移动，每当精灵撞到墙就翻转运动
+
+![](image/block_9_11.png ':no-zoom')  
+
+例子2：画砖块地图的时候我们选择16x16像素的画布，实际得到的场景尺寸则为256x256，然后我们在中间画上一个方形砖块图，镜头每隔1s会随机锁定范围内的一个坐标
+
+![](image/block_9_12.png)   
+
+
+<!-- > [!TIP|style:flat]
+> An alert of type 'note' using alert specific style 'flat' which overrides global style 'callout'. -->

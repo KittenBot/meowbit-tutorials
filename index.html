@@ -13,6 +13,12 @@
 </head>
 <body>
   <div id="app"></div>  
+  <style>
+      :root {
+        --docsifytabs-border-color: #ededed;
+        --docsifytabs-tab-highlight-color: purple;
+      }
+    </style>
   <script>
     window.$docsify = {  
       loadSidebar: true, 
@@ -38,9 +44,28 @@
         placeholder: '搜索',
         noData:'没找到!',
         depth: 1 // 搜索标题的最大程级, 1 - 6
+      },
+      'flexible-alerts': {
+      note: {
+        label: "Hinweis"
+      },
+      tip: {
+        label: "Tipp"
+      },
+      warning: {
+        label: "Warnung"
+      },
+      danger: {
+        label: "Achtung"
       }
+    },
+      copyCode: {
+        buttonText : '点击复制',
+        errorText  : 'Error',
+        successText: '成功  '
+        },
     }
-    
+
 
   </script>
 
@@ -54,7 +79,12 @@
   <script src="./lib/search.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
-  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>   
+
+  <script src="//unpkg.com/docsify/lib/plugins/external-script.js"></script>  
+
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>  
+  <!-- tips and warning style -->
 
 </body>
 </html>

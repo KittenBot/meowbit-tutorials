@@ -1,4 +1,4 @@
-# micropython下板载资源的编程和使用
+# micropython编程和使用
 
 ## 彩屏显示
 
@@ -17,14 +17,14 @@
 	import pyb
 	import framebuf
 
-	# 分配内存空间
-	fbuf = bytearray(160*128*2)
-	fb = framebuf.FrameBuffer(fbuf, 160, 128, framebuf.RGB565)
+	# 分配内存区域
+	fb = framebuf.FrameBuffer(bytearray(160*128*2), 160, 128, framebuf.RGB565)  
+	# class framebuf.FrameBuffer(缓冲内存空间, 屏宽, 屏高, 格式) 
 ``` 
 
 `bytearray`函数是分配一段字节空间。
 
-`FrameBuffer`函数就是以刚刚分配的空间为存储初始化一个Framebuffer对象。
+`FrameBuffer`函数就是以刚刚分配的空间为存储构造一个Framebuffer对象fb
 
 ---
 **液晶屏刷新显示Framebuffer**
@@ -38,13 +38,13 @@
 	fb.fill(0x0000FF)
 	tft.show(fb)
 ```  
-?>大家可以看到我们这里实际上有三个概念，第一个是存储显示内容的内存空间fbuf，之后是控制显示内容的Framebuffer对象fb，最后是液晶屏对象tft。  
-
-![](https://s2.ax1x.com/2019/01/29/kQsxVx.png ':no-zoom')  
+?>在显示具体内容实际只有2个步骤和2个前提：
+- 前提1：初始化帧缓冲对象fb  
+- 前提2：启用液晶屏对象
+- 步骤1：给帧缓冲区加要显示的内容
+- 步骤2：通过show()方法显示出来
 
 为什么这么麻烦呢？这是为了最大化编程的灵活性，实际操作中这种对象化的思想在python中无处不在。
-
-FrameBuffer实际上还有很多api接口，可以在屏幕上显示各种图形和文字。例如：  
 
 ```python
 	fb.fill(0)
@@ -84,7 +84,7 @@ FrameBuffer实际上还有很多api接口，可以在屏幕上显示各种图形
 !>一开机的欢迎界面，根据显示需要的字节空间，如此就耗掉了板子的40%内存
 
 
-## 可编程led  
+## 可编程led
   
 ![](https://s2.ax1x.com/2019/01/29/kQgdW8.png  ':no-zoom')
 
@@ -104,24 +104,26 @@ FrameBuffer实际上还有很多api接口，可以在屏幕上显示各种图形
 
 使用toggle()方法来控制板载的两颗LED灯实现一个炫酷的disco效果
 
-    from pyb import LED 
-    import time
+```python
+from pyb import LED 
+import time
 
-    leds = [LED(i) for i in range(1, 3)]   
-    # for i in range(1,3)意指i=1，i=2。如此leds = [LED(1),LED(2)]
-    
-    # 由于toggle()需要知道现在的状态从而切换，所以在程序开始时需要将全部LED状态先置为off()
-    for l in leds: 
-        l.off()
-        
-    n = 0
-    while True:
-        n = (n + 1) % 3   # 让n在0,1,2中切换
-        if n == 3:        # 由于LED只有1,2两颗，所以为了方便理解，我们排除3(不排除其实也没有问题)
-            n == 1   
-        leds[n].toggle()    
-        time.sleep(0.05)  # 延时0.05s
-        n += n 
+leds = [LED(i) for i in range(1, 3)]   
+# for i in range(1,3)意指i=1，i=2。如此leds = [LED(1),LED(2)]
+
+# 由于toggle()需要知道现在的状态从而切换，所以在程序开始时需要将全部LED状态先置为off()
+for l in leds: 
+	l.off()
+	
+n = 0
+while True:
+	n = (n + 1) % 3   # 让n在0,1,2中切换
+	if n == 3:        # 由于LED只有1,2两颗，所以为了方便理解，我们排除3(不排除其实也没有问题)
+		n == 1   
+	leds[n].toggle()    
+	time.sleep(0.05)  # 延时0.05s
+	n += n 
+```  
 
 !>想知道自己写的程序是否有错误，推荐使用Mu提供检查功能
 
