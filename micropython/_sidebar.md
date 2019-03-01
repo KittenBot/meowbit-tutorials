@@ -24,7 +24,7 @@
     - [逐帧缓冲 - framebuf](micropython/reference/逐帧缓冲)
     
 * 进阶
-    - [超级玛丽音乐](micropython/超级玛丽)
+    <!-- - [超级玛丽音乐](micropython/超级玛丽) -->
     - [显示多国语言](micropython/显示多国语言)
     - [显示陀螺仪数值](micropython/显示陀螺仪数值)
 
