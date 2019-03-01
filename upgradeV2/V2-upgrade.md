@@ -94,11 +94,3 @@ DFU在此可以理解为强制固件切换，要更换固件首先需要进到�
 
 
 
-## Micropython模式更新
-
-等待适配好就放出相应教程
-
-<!-- 更新了新的BootLoader之后，进入micropython模式也不需要重新进入dfu模式切换固件了
-
-* 下载Micropython的uf格式固件：[http://cdn.kittenbot.cn/meowbit/meowpy.uf2](http://cdn.kittenbot.cn/meowbit/meowpy.uf2)
-* 直接使用`meowpy.uf`拖到喵bit的u盘盘符下就行了~ -->
