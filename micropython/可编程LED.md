@@ -9,6 +9,7 @@
     on()      # 点亮
     off()     # 熄灭 
     toggle()  # 切换
+	intensity([val])  #调节亮度实际是通过定时器的PWM来实现。没有参数情况下为获取LED亮度值。含有参数val时为设置led的亮度，val为0~255可调
 
 除了on()和off()能够分别控制LED亮灭外，LED对象还提供了一个toggle()方法  
 用处是在现有的状态上取反。也就是说若目前LED(1)状态为on()，则执行toggle()后，LED(1)显示为off()状态
@@ -16,7 +17,7 @@
 ---
 ## 例1：DISCO效果
 
-使用toggle()方法来控制板载的两颗LED灯实现一个炫酷的disco效果
+使用方法toggle()来控制板载的两颗LED灯实现一个炫酷的disco效果
 
 ```python
 from pyb import LED 
@@ -31,14 +32,33 @@ for l in leds:
 	
 n = 0
 while True:
-	n = (n + 1) % 3   # 让n在0,1,2中切换
-	if n == 3:        # 由于LED只有1,2两颗，所以为了方便理解，我们排除3(不排除其实也没有问题)
-		n == 1   
+	n = (n + 1) % 3   # 让n只能在0，1，2内取值
 	leds[n].toggle()    
 	time.sleep(0.05)  # 延时0.05s
-	n += n 
+	n += n   # 等价于n = n + n， 确保不会出现n=1
 ```  
 
 !>想知道自己写的程序是否有错误，推荐使用Mu提供检查功能
 
+
+## 例2：呼吸灯
+
+使用方法intensity()来控制led灯的
+
 ![](./image/led_02.png)  
+
+
+```python
+import pyb
+
+led = pyb.LED(1)
+led.off()
+
+while True:
+    for i in range (0, 256):  # 0-255
+        led.intensity(i)
+        pyb.delay(10)
+    for i in range (255, -1, -1):  # 255-0
+        led.intensity(i)
+        pyb.delay(10)
+```
