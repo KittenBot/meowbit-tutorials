@@ -31,10 +31,11 @@ for l in leds:
 	l.off()
 	
 n = 0
+
 while True:
-	n = (n + 1) % 2   # 让n只能在0，1，内取值
-	leds[n].toggle()    
-	time.sleep(0.05)  # 延时0.05s
+    n = (n + 1) % 2  # 让n只能在0,1内取值
+    leds[n].toggle()    
+    time.sleep(0.05)  # 延时0.05s
 ```  
 
 !>想知道自己写的程序是否有错误，推荐使用Mu提供检查功能
