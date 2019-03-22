@@ -32,6 +32,8 @@ V2版本开始的喵比特在makecode和micropython编程模式中的切换变�
 
 ## 安装串口驱动
   
+这一步win10或mac用户可以忽略
+
 首先需要下载这个文件 http://cdn.kittenbot.cn/meowbit/pybcdc.inf
 
 !>为了能让喵比特在Mu editor中通过REPL实现在线交互，我们需要像Microbit在kittenblock中那样有一个串口驱动,win10和Mac多半都能自动成功安装无需看下述步骤
