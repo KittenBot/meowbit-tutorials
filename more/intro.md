@@ -37,6 +37,10 @@ Meowbit(喵比特)是一款兼容Microbit金手指40PIN接口(既兼容市面上
 19. 默认烧录unicode字符表的2MByte的spi-flash
 20. 签名栏
 
+## 引脚排布
+
+![](https://s2.ax1x.com/2019/04/07/AfrVjf.png)
+
 
 ## 编程方式
 
