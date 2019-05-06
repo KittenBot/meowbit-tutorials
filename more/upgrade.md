@@ -4,8 +4,7 @@
 
 下载地址：http://cdn.kittenbot.cn/meowbit/bootloader.uf2
 
-2019.3.20 ：v2.36<sup style="color:red">NEW<sup> 
-
+2019.3.20 ：v2.36<sup style="color:red" class="animated infinite flash">NEW</sup> 
 
 
 
