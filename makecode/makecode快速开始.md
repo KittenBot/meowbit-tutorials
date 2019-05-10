@@ -8,7 +8,11 @@ Makecode Arcade平台的布局和编程方式如同Makecode Microbit平台一样
 
 当你刚刚入手编程你的第一个游戏时，界面左边的模拟器能够将你拖入生效的积木块信息实时展现在窗口里，这使你的编程更加随心和便利。  
 
-编程地址: http://meowbit.kittenbot.cn
+编程地址: https://arcade.makecode.com
+
+喵比特已经在makecode官方的支持列表中了，请在下载的时候选择喵比特作为目标硬件：
+
+![image](https://user-images.githubusercontent.com/3390845/57496975-49681000-7308-11e9-9bc9-831935326bcf.png)
 
 ## 讲解流程
 
