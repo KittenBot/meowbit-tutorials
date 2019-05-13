@@ -2,9 +2,11 @@
 
 ## bootloader迭代记录
 
-下载地址：http://cdn.kittenbot.cn/meowbit/bootloader.uf2
+下载地址：http://cdn.kittenbot.cn/meowbit/bootloader270.uf2
 
-2019.3.20 ：v2.36<sup style="color:red" class="animated infinite flash">NEW</sup> 
+2019.5.7 : v2.7.0<sup style="color:red" class="animated infinite flash">NEW</sup> 
+
+2019.3.20 ：v2.3.6
 
 
 
@@ -16,7 +18,7 @@
 
 1. 下载新的bootloader.uf2(地址在上面，每次更新都使用同一个地址，请注意迭代记录)
  
-2. 将bootloader.uf2拖入MEOWBIT盘符  
+2. 将bootloader.uf2拖入MEOWBIT盘符(有可能你的盘符不是meowbit，但请确保meowbit显示是主界面)
 
 ![](image/blup01.png)  
 
@@ -30,5 +32,5 @@
 
 成功后，就可以看到界面中间的版本号已经更新成最新的了
 
-![](image/blup03.png)  
+![](https://s2.ax1x.com/2019/05/07/EsiIPK.png)  
 
