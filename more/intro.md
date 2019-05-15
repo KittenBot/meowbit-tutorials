@@ -49,10 +49,8 @@ Meowbit(喵比特)是一款兼容Microbit金手指40PIN接口(既兼容市面上
 - 由微软推出的一款支持部分开源硬件的JS编程语言图形化编程平台(包括Microbit、Adafruit、Arcade等等)，而喵比特支持新推出的Arcade系列  
 
 微软官方arcade编程平台：https://arcade.makecode.com    
-喵家喵比特在线编程平台：http://meowbit.kittenbot.cn
 
-
-`micropython编程模式: Mu editor/Kittenblock(基于Scratch3.0) `   
+`micropython编程模式: Mu editor`  
 
 - MicroPython是Python3的精简实现，包括Python标准库的一小部分，并且经过优化，目的是可在硬件中高效运行。(同时python也是近年开始陆续在各地高考中开设考试科目的一门编程语言)  
   
