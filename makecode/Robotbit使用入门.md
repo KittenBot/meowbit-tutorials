@@ -6,7 +6,7 @@
 
 由于平台差异，microbit上的robotbit插件并不能直接用于喵比特，不过不用担心我们针对arcade做了兼容性的移植。
 
-1. 首先打开 arcade编程网站：https://arcade.makecode.com/，并新建一个项目
+1. 首先打开 arcade编程网站：https://arcade.makecode.com/ 并新建一个项目
 
 2. 之后复制我们github插件链接地址（注意跟microbit的robotbit插件地址区分开）： https://github.com/KittenBot/meow-robotbit
 

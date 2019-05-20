@@ -12,6 +12,10 @@
     - [陀螺仪](makecode/入门_陀螺仪)
     <!-- - [引脚控制](makecode/入门_引脚使用) -->
 
+* 拓展应用
+ 
+    - [Robotbit](makecode/Robotbit使用入门)
+
 * 积木分栏详解 
 
     - [音乐](makecode/分栏_音乐)
