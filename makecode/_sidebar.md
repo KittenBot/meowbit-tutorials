@@ -13,8 +13,9 @@
     <!-- - [引脚控制](makecode/入门_引脚使用) -->
 
 * 拓展应用
- 
+
     - [Robotbit](makecode/Robotbit使用入门)
+    - [IOBit](makecode/IOBit使用入门.md)
 
 * 积木分栏详解 
 
