@@ -15,7 +15,7 @@
 * 拓展应用
 
     - [Robotbit](makecode/Robotbit使用入门)
-    - [IOBit](makecode/IOBit使用入门.md)
+    - [IOBit](makecode/IOBit使用入门)
 
 * 积木分栏详解 
 
