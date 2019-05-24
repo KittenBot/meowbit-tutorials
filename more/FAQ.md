@@ -2,11 +2,11 @@
 
 `喵比特跟Micorbit有什么区别？`
 
-喵比特是小喵科技推出的一款围绕编程游戏的主控板，底部40PIN金手指兼容micorbit的插槽。它涵盖了Microbit的所有硬件资源，甚至说是在其上做了升级。喵比特上的彩屏和6颗硅胶按键这个配置的组合使它成为不折不扣的低配版游戏机
+喵比特是小喵科技推出的一款围绕编程游戏的主控板，它目前已经成为微软MakeCode Aracde平台的官方支持硬件。Arcade平台是目前少有的能使用图形化编程游戏的平台，在这个平台上我们可以体验自由度超高的游戏编程，并且在硬件上延续了microbit的程序烧录方式，使得新手也可以最快的速度上手并全新投入在游戏创作上。
 
 `用常规的makecode可以控制喵bit么？`  
 
-不可以，喵bit有特定版本的makecode
+不可以，喵bit有特定版本的makecode，叫做makecode Arcade
 
 `Micorbit的程序可以直接烧录到喵bit中么？`
 
@@ -18,14 +18,16 @@
 
 `什么时候出离线版本？`
 
-等在线版本测试稳定后就会出离线版本
+可能要到6、7月份的样子，由微软官方制作离线版
 
 `喵比特可以插到Robotbit或者IObit上使用吗？`
 
-可以的，在喵比特的编程网址扩展下有Robotbit的插件包  
+支持，插件地址
+robotbit： https://github.com/KittenBot/meow-robotbit  
+iobit： https://github.com/KittenBot/meow-iobit
 
 `喵比特可以和能量魔块套件一起使用么？`  
 
-可以，在新版的v2.3.6版本后，就支持了，插件地址 https://github.com/KittenBot/meow-powerbrick
+支持，插件地址 https://github.com/KittenBot/meow-powerbrick
 
 
