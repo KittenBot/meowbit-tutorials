@@ -11,8 +11,15 @@
 - 主控板最大输出电流：300MA
 - 外部电池接口输入电压：3.7~4.2V
 
-## 硬件资源
+## 入门须知 
 
+**一、保护你的板子**
+
+- 接插USB的时候请尽量温柔一下，由于USB座子是通过焊接固定在板子上的，过于暴力或可导致板子下次使用无法被电脑识识别  
+- 静电或短路极为可能损坏板子上的原件，所以建议日常使用均要确保硅胶保护套穿在它的身上  
+
+**二、硬件资源**
+  
 ![](https://s2.ax1x.com/2019/01/26/knIGbd.png)
 
 ![](https://s2.ax1x.com/2019/01/26/knId8f.png)
@@ -38,6 +45,13 @@
 19. 默认烧录unicode字符表的2MByte的spi-flash
 20. 签名栏
 
+**三、供电方式**  
+
+- 通过接插USB，USB的另一端可以是电脑或者充电宝，确保5V。
+- 通过接插3.7V锂电包（PH2.0端子）。在该端口接插的电池电压必须不得超过4.2V或不低于3.0V  
+
+
+
 ## 引脚排布
 
 ![](https://s2.ax1x.com/2019/05/24/Vi4gTH.png)
@@ -45,14 +59,15 @@
 
 ## 编程方式
 
-`makecode图形化编程模式: Makecode平台`  
-- 由微软推出的一款支持部分开源硬件的JS编程语言图形化编程平台(包括Microbit、Adafruit、Arcade等等)，而喵比特支持新推出的Arcade系列  
+**makecode图形化编程模式: Makecode平台**  
+
+由微软推出的一款支持部分开源硬件的JS编程语言图形化编程平台(包括Microbit、Adafruit、Arcade等等)，而喵比特支持新推出的Arcade系列  
 
 微软官方arcade编程平台：https://arcade.makecode.com    
 
-`micropython编程模式: Mu editor`  
+**micropython编程模式: Mu editor**  
 
-- MicroPython是Python3的精简实现，包括Python标准库的一小部分，并且经过优化，目的是可在硬件中高效运行。(同时python也是近年开始陆续在各地高考中开设考试科目的一门编程语言)  
+MicroPython是Python3的精简实现，包括Python标准库的一小部分，并且经过优化，目的是可在硬件中高效运行。(同时python也是近年开始陆续在各地高考中开设考试科目的一门编程语言)  
   
 micropython编程平台MU下载链接：http://cdn.kittenbot.cn/mu/Mu_1.0.1.exe
 
