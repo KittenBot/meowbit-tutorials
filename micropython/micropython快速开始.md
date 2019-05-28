@@ -12,7 +12,7 @@
 
 喵比特可选两种编程模式，一种是Arcade游戏编程模式，一种是micropython纯代码编程。程序文件下载入口是bootloader界面，使用者暂时只需要了解这个界面下只支持下载.uf2的格式文件。Arcade的程序文件就是.uf2。此时micropython模式就像是附带品一样，同样通过一个.uf2的程序引导模式开启。
 
-- 下载这个引导程序文件 http://cdn.kittenbot.cn/meowbit/meowpy.uf2 
+- 下载这个引导程序文件 http://cdn.kittenbot.cn/meowbit/meowpy.uf2 <sup style="color:red" class="animated infinite flash">2019.5.28 NEW</sup> 
 - 将该文件拖入ARCADE-F4盘符下(如果你在bootloader界面，电脑就会对应出现这个名称盘符)
 <p style = "text-align:center" >▼</p>
   
