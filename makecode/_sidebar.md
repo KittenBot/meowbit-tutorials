@@ -1,14 +1,11 @@
 
 * 基础入门  
 
-    <!-- - [下载与运行](makecode/入门_下载与运行) -->
     - [快速开始](makecode/makecode快速开始)
-    <!-- - [LED](makecode/入门_LED) -->
-    <!-- - [显示](makecode/入门_显示) -->
     - [蜂鸣器](makecode/入门_蜂鸣器)
     - [按键检测](makecode/入门_按键)
-    <!-- - [温度传感器](makecode/入门_温度传感器) -->
     - [光线传感器](makecode/入门_光线传感器)
+    - [温度传感器](makecode/入门_温度传感器)
     - [陀螺仪](makecode/入门_陀螺仪)
     <!-- - [引脚控制](makecode/入门_引脚使用) -->
 
