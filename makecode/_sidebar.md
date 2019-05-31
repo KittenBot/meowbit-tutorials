@@ -18,7 +18,7 @@
 
     - [音乐](makecode/分栏_音乐)
     - [控制器](makecode/分栏_控制器)
-    - [Game](makecode/分栏_Game)
+    - [游戏](makecode/分栏_Game)
     - [场景](makecode/分栏_场景)
     - [精灵](makecode/分栏_精灵)
 

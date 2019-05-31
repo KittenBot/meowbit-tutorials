@@ -30,4 +30,19 @@ iobit： https://github.com/KittenBot/meow-iobit
 
 支持，插件地址 https://github.com/KittenBot/meow-powerbrick
 
+`在micropython模式下发现本该有的盘符莫名消失了，喵比特显得不太正常？`   
 
+文件系统的进入方法:  
+
+![](https://s2.ax1x.com/2019/05/30/VKr2lR.gif)
+
+
+
+有一下几种情况请逐一排查：
+- 当进入micropython模式时发现右上角红绿灯双闪一阵子，表明你的程序中存在错误，通过进入文件系统将mian.py文件删除，之后通过复位按键切换再回到micropython模式就能看到蓝色背景的hello micropython初始程序了  
+- 当micropython程序显示正常或者并没有双闪，但却看不到盘符
+    - 可能是USB线连接不良，试着换下口或线
+    - 可能是内部的文件损坏了，需要进入文件系统,之后看到如下盘符并格式化盘符,操作如下： ![](https://s2.ax1x.com/2019/05/30/VKrR61.png ':no-zoom')![](https://s2.ax1x.com/2019/05/30/VKsVBV.png)  
+    ![](https://s2.ax1x.com/2019/05/30/VKsBjI.png)   
+
+    之后重新将进入micropython的.uf2文件保存进喵比特即可。   

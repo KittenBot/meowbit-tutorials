@@ -2,7 +2,9 @@
 body:not(.ready){overflow:hidden}
 body:not(.ready) .app-nav,body:not(.ready)>nav,body:not(.ready) [data-cloak]{display:none}
 div#app{font-size:30px;font-weight:lighter;margin:40vh auto;text-align:center}
-div#app:empty:before{content:"Loading..."}
+
+/* div#app:empty:before{content:"Loading..."} */
+
 .emoji{height:1.2rem;vertical-align:middle}
 .progress{background-color:var(--theme-color,#42b983);height:2px;left:0;position:fixed;right:0;top:0;transition:width .2s,opacity .4s;width:0;z-index:5}
 .search .search-keyword,.search a:hover{color:var(--theme-color,#42b983)}
