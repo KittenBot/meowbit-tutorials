@@ -35,7 +35,7 @@
     - [第九节：认识抛射物](makecode/lesson9)
 
 - 进阶案例 
-
-    - [游戏](makecode/adGame)
+    - [社区趣味游戏分享](makecode/社区趣味游戏分享)
+    <!-- - [实战游戏1](makecode/实战游戏1-JumpingMateo) -->
 
     
