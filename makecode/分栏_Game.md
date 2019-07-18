@@ -71,9 +71,9 @@ function reset();
 ```javascript  
 //subtitle显示在title下一行，且只能显示小于8px，故无法显示中文
 function splash(title: string, subtitle?: string);
-```  
+```    
 
-!>在未来的正式版中能够使用这个积木块显示多国语言，但技术难度较大目前还处于测试阶段
+!> 目前在beta版中支持 中文显示
 
 `例子：`  
 
@@ -93,7 +93,7 @@ function ask(title: string, subtitle?: string): boolean;  //如同显现积木�
 
 ```  
 <!-- > [!NOTE|style:flat] -->
-!>只能显示基本的ASCII码（英文，数字，简单符号）
+!>目前在beta版中支持 中文显示
 
 `例子：` 
 
@@ -150,6 +150,7 @@ function askForString(message: string, answerLength = 12);
 function showLongText(str: string, layout: DialogLayout);  
 ```  
 
+!> 目前在beta版中支持 中文显示。默认底部可现实46个字符即23个汉字。
 
-可以通过这个例子分享链接来体验一下: https://makecode.com/_iD8686DYhK3r
+个性对话框可以通过这个例子体验一下: https://makecode.com/_iD8686DYhK3r
 
