@@ -1,3 +1,4 @@
 - [关于喵比特](more/intro)
 - [Makecode编程](makecode/makecode快速开始)
-- [Micropython编程](micropython/micropython快速开始)    
+- [Micropython编程](micropython/micropython快速开始)
+- [Kittenblock编程](kittenblock/kittenblock快速开始)

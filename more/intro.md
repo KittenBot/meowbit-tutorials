@@ -54,7 +54,7 @@
 
 ## 引脚排布
 
-![](https://s2.ax1x.com/2019/05/24/Vi4gTH.png)
+![](https://s2.ax1x.com/2019/08/21/mNhxN6.png)
 
 
 ## 编程方式

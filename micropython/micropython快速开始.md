@@ -10,25 +10,30 @@
 
 ## 进入micropython模式
 
-喵比特可选两种编程模式，一种是Arcade游戏编程模式，一种是micropython纯代码编程。程序文件下载入口是bootloader界面，使用者暂时只需要了解这个界面下只支持下载.uf2的格式文件。Arcade的程序文件就是.uf2。此时micropython模式就像是附带品一样，同样通过一个.uf2的程序引导模式开启。
+1. 喵比特可选两种编程模式，一种是Arcade游戏编程模式，一种是micropython纯代码编程。程序文件下载入口是bootloader界面，使用者暂时只需要了解这个界面下只支持拖入.uf2的格式文件执行。
+    - Arcade的程序文件就是.uf2
+    - 此时micropython模式就像是附带品一样，同样通过一个.uf2的程序引导模式开启。
 
-- 下载这个引导程序文件 http://cdn.kittenbot.cn/meowbit/meowpy.uf2 <sup style="color:red" class="animated infinite flash">2019.5.28 NEW</sup> 
-- 将该文件拖入ARCADE-F4盘符下(如果你在bootloader界面，电脑就会对应出现这个名称盘符)
+2. 下载这个引导程序文件 http://cdn.kittenbot.cn/meowbit/meowpy.uf2 <sup style="color:red" class="animated infinite flash">2019.8.1 NEW</sup>
+3. 将该文件拖入ARCADE-F4盘符下(如果你在bootloader界面，电脑就会对应出现这个名称盘符)
 <p style = "text-align:center" >▼</p>
   
 ![](https://s2.ax1x.com/2019/05/27/VZ83oF.png ':no-zoom')  
 
-- 待进度条走完后，注意喵比特的屏幕，不出意外会出现一行Hello Micropython!的字样，此时你已经成功进入micropython模式界面，对应的电脑盘符也会改变，它的名字大部分情况会是`可移动磁盘`
+- 待进度条走完后，注意喵比特的屏幕，不出意外会黑屏，随即可以看到出现`PYBFLASH`字样的盘符。此时你已经成功进入micropython模式界面  
+
+!>如果它的名字是*可移动磁盘*，则需要按1下右侧边上面第一颗按键（RESET键），返回到bootloader界面后，按住A键不放，同时再次按1下RESET键。此时可见盘符为PYBFLASH字样无误  
+
+?>刷入了micropython模式固件后，在bootloader界面下，通过同时按住A和RESET的作用为初始化刷新FlASH
 
 ## 文件介绍
     
 打开这个新的磁盘可以看到里面有如下文件
-![](https://s2.ax1x.com/2019/05/27/VZJxG4.png ':no-zoom')    
+![](https://s2.ax1x.com/2019/08/23/mBRKht.png ':no-zoom')    
 
 - boot.py 是启动文件，一上电micropython会最优先执行这个文件，一般包括所有运行环境和库文件的初始化，它指定了当你开机后首先运行的是名字为main的.py程序
 - main.py 是用户的主程序，大家平时学习开发主要是编辑这个文件
-- buzz.py 这个是附加的蜂鸣器驱动库，接下来会陆续介绍这些功能的使用方法  
-- mpu6050.py 这是六轴陀螺仪的驱动库，里面定义了可调用的一些函数  
+- pybcdc.inf 是串口驱动安装文件
 
 
 ## 编程软件
@@ -39,7 +44,7 @@
 
 新人当然是推荐使用Mu edtior作为编程软件。优势在于：  
 - 支持一键REPL(在线调试)
-- 支持一键查语法错误等bug  
+- 支持一键查语法错误bug等  
 
 [下载地址](http://cdn.kittenbot.cn/mu/Mu_1.1.0a1.exe)
 
@@ -52,7 +57,7 @@
 
 !>为了能让喵比特在Mu editor中通过REPL实现在线交互，我们需要像Microbit在kittenblock中那样有一个串口驱动，而win10和mac则会自动安装  
 
-首先需要下载这个文件 http://cdn.kittenbot.cn/meowbit/pybcdc.inf  
+<!-- 首先需要下载这个文件 http://cdn.kittenbot.cn/meowbit/pybcdc.inf   -->
 
 1. 刚切换至Micropython模式时可以看到电脑正试图安装驱动，但串口驱动的安装会失败，在设备管理器中可以看到。  
 
@@ -62,11 +67,11 @@
 ![](https://s2.ax1x.com/2019/05/27/VZNBPU.png)  
 ![](https://s2.ax1x.com/2019/05/27/VZNgq1.png)
 
-2. 我们将下载好的.inf文件随意放在一个你找得到的地方，(方便起见一下以拖入到喵比特的可移动磁盘下为例)
+2. 在PYBFLASH的盘符内可见.ini格式文件，我们使用它令安装串口驱动能顺利安装
 
 ![](https://s2.ax1x.com/2019/05/27/VZU2lQ.png ':no-zoom')   
 
-3. 右键点击这个打感叹号的Pyboard设备，并按照顺序点击 更新驱动程序软件->浏览计算机以查找驱动程序软件->浏览->选择可移动磁盘->下一步即可
+3. 右键点击1.中打感叹号的Pyboard设备，并按照顺序点击 更新驱动程序软件->浏览计算机以查找驱动程序软件->浏览->选择可移动磁盘->下一步即可
 
 ![](image/mode_4.png ':no-zoom')  
   
@@ -85,14 +90,26 @@
 
 ![](https://s2.ax1x.com/2019/05/27/VZwnSS.png ':no-zoom')   
 
-**程序文件加载**
+**编辑主程序**
 此时你可以看到界面如下  
-![](https://s2.ax1x.com/2019/05/27/VZwUlF.png)  
+![](https://s2.ax1x.com/2019/08/23/mBfITH.png)  
 
 这是由于Mu检测到了你已经连上电脑，会自动打开你文件中的main.py（如果没有，你可以点选导功能栏中的加载并找到喵比特盘符选择里面的main.py文件）。上图的颜色可能和你的原始Mu不一样，你可以通过主题按钮来切换
 
 **初识程序结构**
 初步认识下python的语法    
+我们先将如下程序段复制到第二行
+```python
+import pyb
+import framebuf
+
+fbuf = bytearray(160*128)
+fb = framebuf.FrameBuffer(fbuf, 160, 128, framebuf.PL8)
+tft = pyb.SCREEN()
+fb.fill(8)
+fb.text('Hello Micropython!', 10, 50, 2)
+tft.show(fb, 1)
+```
 
 ![](https://s2.ax1x.com/2019/05/27/VZwOXQ.png)
 
