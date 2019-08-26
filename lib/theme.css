@@ -80,7 +80,7 @@ body.sticky .sidebar,body.sticky .sidebar-toggle{position:fixed}
 .markdown-section p.tip:before{background-color:rgba(255, 115, 0, 0.75);border-radius:100%;color:#fff;content:"!";font-family:Dosis,Source Sans Pro,Helvetica Neue,Arial,sans-serif;font-size:1em;font-weight:800;left:-12px; line-height:17px;position:absolute;height:20px;width:20px;text-align:center; vertical-align: center;}
 /* .markdown-section p.tip code{background-color:#efefef} */
 .markdown-section p.tip em{color:#34495e}
-.markdown-section p.warn{background:rgba(158, 158, 202, 0.88);padding:0.6rem;color:#fff;border-radius: 19px;}
+.markdown-section p.warn{background:rgba(158, 158, 202, 0.88);padding:0.6rem;color:#fff;border-radius: 3px;}
 
 .markdown-section p img{display: block; margin: 0 auto;max-width:70% }
 

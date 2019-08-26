@@ -27,7 +27,9 @@
 
 ![](https://s2.ax1x.com/2019/08/23/mDi2Of.png ':no-zoom')
 
-!>如果它的名字是 *可移动磁盘*，则需要按1下右侧边上面第一颗按键（RESET键），返回到bootloader界面后，按住A键不放，同时再次按1下RESET键。此时可见盘符为PYBFLASH字样无误  
+!>如果它的名字是 *可移动磁盘*，则需要按1下右侧边上面第一颗按键（Reset键），返回到bootloader界面后，按住A键不放，同时再次按1下Reset键。此时可见盘符为PYBFLASH字样无误  
+
+?>按住A键不放同时按下Reset键作用为清空Flash，让Meowbit回到初始状态，可用于一些出错卡住等情况。
 
 3. 恢复固件后,Meowbit就进入到了Micropython模式，同时可以看到电脑正试图安装驱动，驱动安装成功后，在Kittenblock中就可查找到可连接的Meowbit了 
 
