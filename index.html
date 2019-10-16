@@ -5,18 +5,18 @@
   <title>喵bit使用文档</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
+  <meta name="image" content="https://s2.ax1x.com/2019/09/27/uMZLUf.png">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<!--   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css"> -->
   <link rel="stylesheet" type="text/css" href="lib/theme.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-  <!-- <link href="themes/prism.css" rel="stylesheet" /> -->
+
 
 </head>
 <body>
   <div id="app"></div>  
 
   <script>
-    window.$docsify = {  
+   window.$docsify = {     
       loadSidebar: true, 
       loadNavbar: true,
       autoHeader: true,
@@ -45,7 +45,9 @@
         noData:'没找到!',
         depth: 1 // 搜索标题的最大程级, 1 - 6
       },
+
       
+
       'flexible-alerts': {
       note: {
         label: "注意"
@@ -64,34 +66,20 @@
         buttonText : '点击复制',
         errorText  : 'Error',
         successText: '成功  '
-        },     
-    }
+        },   
+      formatUpdated: '{stamp}',
 
-//     function animateCSS(element, animationName, callback) {
-//     const node = document.querySelector(element)
-//     node.classList.add('animated', animationName)
+      formatUpdated: function(time) {
+        
+      return time;
+      }  
+    }  
 
-//     function handleAnimationEnd() {
-//         node.classList.remove('animated', animationName)
-//         node.removeEventListener('animationend', handleAnimationEnd)
+    
+    const tinydate = require('tinydate');
+    const stamp = tinydate('[{MM}/{DD} {HH}:{mm}:{ss}]');
 
-//         if (typeof callback === 'function') callback()
-//     }
-
-//     node.addEventListener('animationend', handleAnimationEnd)
-// }
-//       animateCSS('h1', 'bounce')
   </script>
-  <body>
-    <!-- <nav>
-      <a href="#/">EN</a>
-      <a href="#/zh-cn/">中文</a>
-    </nav>
-    <div id="app"></div> -->
-      
-  <!--inject-app-->
-  <!--inject-config-->
-  </body>
 
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
@@ -107,7 +95,10 @@
 
   <script src="//unpkg.com/docsify/lib/plugins/external-script.js"></script>  
 
-  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>  
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script> 
+
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
   <!-- tips and warning style -->
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.5.1/css-doodle.min.js"></script> -->
 </body>
