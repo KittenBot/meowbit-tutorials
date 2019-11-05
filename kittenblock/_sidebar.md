@@ -1,6 +1,6 @@
 
 * 基础入门 
-    - [快速开始](kittenblock/kittenblock快速开始)
+    - [快速开始](kittenblock/kittenblockQS)
     - [LED灯](kittenblock/01点亮LED灯)
     - [按键检测](kittenblock/02按键检测)
     - [蜂鸣器](kittenblock/03蜂鸣器)

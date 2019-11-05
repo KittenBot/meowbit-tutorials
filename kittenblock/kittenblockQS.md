@@ -15,7 +15,7 @@
 
 ## kittenblock中连接串口 
 
-1. 打开Kittenblock软件，选择Meowbit硬件  
+1. 打开Kittenblock软件(请确保软件为最新，若不是会有提示更新),选择Meowbit硬件  
 
 ![](https://s2.ax1x.com/2019/08/23/mDeYNT.png ':no-zoom')  
 
@@ -44,7 +44,7 @@ Kittenblock串口成功连上后，我们需要加载必要的库到Meowbit中�
 
 1. 首先将Kittenblock切换成编程模式，打开插件安装目录  
 
-![](https://s2.ax1x.com/2019/08/23/mDeBuR.png ':no-zoom')  
+![](https://s2.ax1x.com/2019/11/05/KzXJ1S.png ':no-zoom')  
 
 
 2. 把这些库都发送到Meowbit的PYBFLASH盘符下  
@@ -77,27 +77,27 @@ Kittenblock串口成功连上后，我们需要加载必要的库到Meowbit中�
 
 - `Stop`终止当前运行的程序，效果和Reset差不多  
 
-![](https://s2.ax1x.com/2019/08/23/mDe2CD.png)  
+![](https://s2.ax1x.com/2019/11/05/KzXUmj.png)  
 
 ## 使用kittenblock编写你的第一个程序  
 
 1. 如图搭建程序    
 
-![](https://s2.ax1x.com/2019/08/23/mDA9L6.png ':no-zoom')  
+![](https://s2.ax1x.com/2019/11/05/KzXd7n.png ':no-zoom')  
 
 !>图形化编程确保上图箭头处的勾勾是选上的，这样才可以将积木块实时转译成代码。如果你想直接写代码执行，可以将勾勾去掉 
 
 2. 运行程序  
 
-![](https://s2.ax1x.com/2019/08/23/mDEyE8.png ':no-zoom')   
+![](https://s2.ax1x.com/2019/11/05/KzXDhV.png ':no-zoom')  
 
-- `复位`停止目前正在运行的程序并且初始化Meowbit   
+电机play，当标志变为如下，则运行成功，若要停止或更换别的程序运行则需要再次点击这个按钮变为原本的play标志即可 
 
-- `上传`相当于将框内的代码复制到Meowbit盘符下的main.py主程序文件内  
+![](https://s2.ax1x.com/2019/11/05/KzXy1U.png ':no-zoom')  
 
-- `运行`不拷入代码，可直接在线执行代码框内的代码   
 
-!>想马上看到现象，如上搭建好了的程序基础上，点击`运行`既可以看到绿色LED灯亮灭1次。当需要脱机运行时，点击`上传`。需要注意的是在线运行含有无线循环的程序时，若需运行新的程序，应先点击`复位`初始化Meowbit  
+
+!>点击`运行`是在线运行程序，相当于REPL的感觉，上面程序的现象是绿色LED灯循环亮灭。若需要脱机运行时，则点击旁边的`上传`。
 
 ## 注意事项  
 
