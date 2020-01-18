@@ -576,19 +576,7 @@
       "resolved": "https://registry.npmjs.org/destroy/-/destroy-1.0.4.tgz",
       "version": "1.0.4"
     },
-    "docsify": {
-      "integrity": "sha512-Xtm6sfrNU7cqOViWMewDhscn0cySF60q2KTKok9OaPmzt6nRkTAIvYU4dj916IT21o/b336Or3vO2hsvmaQzxg==",
-      "requires": {
-        "marked": "^0.5.1",
-        "medium-zoom": "^0.4.0",
-        "opencollective": "^1.0.3",
-        "prismjs": "^1.15.0",
-        "tinydate": "^1.0.0",
-        "tweezer.js": "^1.4.0"
-      },
-      "resolved": "https://registry.npmjs.org/docsify/-/docsify-4.9.4.tgz",
-      "version": "4.9.4"
-    },
+    "docsify": "^4.10.2",
     "docsify-cli": {
       "integrity": "sha512-88O1sMeoZv4lb5GPSJzDtOAv2KzBjpQaSqVlVqY+6hGJfb2wpz9PvlUhvlgPq54zu4kPDeCCyUYgqa/llhKg3w==",
       "requires": {

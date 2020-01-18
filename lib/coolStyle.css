@@ -1,4 +1,10 @@
 :root {
+
+     /* Document */
+     --docsify-example-panels-document-width: 80%;
+     /* Wrapper */
+     --docsify-example-panels-wrapper-width: 100%;
+
     /* Reduce the font size */
     --base-font-size: 15px;
 
